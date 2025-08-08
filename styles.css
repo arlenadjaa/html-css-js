@@ -1,0 +1,340 @@
+
+/* Navbar CSS */
+
+.navbar{
+    position: fixed;
+    width: 118em;
+    top: 0;
+    z-index: 1100;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+    margin: .5em;
+    margin-top: 0em;
+    
+}
+
+.navbar .navbar-nav .nav-link{
+    
+    color: #000000;
+    font-family: 'Lucida Console', 'Lucida Sans Regular';
+    font-size: 1em;
+    padding: 0.95em;
+
+}
+
+
+
+
+
+
+.navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link.active{  /* WHEN HOVERING A TAB*/
+    
+    background-color: #000;
+    color: #eee;
+
+}
+
+.active{
+    background-color: #000;
+    color: #eee;
+}
+
+/* .navbar .navbar-nav .nav-link.active{  /* CURRENT TAB IS SELECTED */
+   
+    /* background-color: #000;
+    color: #eee;
+
+ }  */
+
+
+@media screen and (min-width:992px){  /*REMOVE PADDING FOR BIG SCREENS*/
+    .navbar{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:991px){  /*ADD PADDING FOR SMALLER SCREENS SCREENS BETWEEN THE HOME AND THE ICON*/
+    .navbar-nav{
+        padding-top: 1em;
+    }
+}
+
+
+
+/* Card CSS */
+.card{
+    
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+    transition: all 0.3s;
+}
+
+.card .card-title{
+
+    font-family: 'Lucida Console';
+    font-weight: bold;
+}
+
+.card .card-text{
+
+    font-family: 'Lucida Console';
+}
+
+/* .card:hover{
+
+    background-color: #000000;
+    color: #fff;
+    
+    box-shadow: 5px 5px white, 
+    5px 5px 0px 2px black;
+} */
+
+#Antiyoy{
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+#Techmino{
+  
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+
+/* More Details Button CSS */
+#moreDetails{
+    background-color: #eee;
+    color: #000000;
+    border: 2px solid #000000;
+    font-family: 'Lucida Console';
+    box-shadow: 5px 5px #000000;
+}
+
+#moreDetails:hover{
+    background-color: #000000;
+    color: #eee;
+    box-shadow: 5px 5px #eee, 
+    5px 5px 0px 2px black;
+    
+}
+
+
+/* Modal */
+
+.modal-content{
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+
+/* Modal Buttons CSS */
+#description{
+    
+    font-family: 'Lucida Console';
+}
+#description2{
+    
+    font-family: 'Lucida Console';
+}
+#description3{
+    
+    font-family: 'Lucida Console';
+}
+
+/* Close Button */
+#close{
+    background-color: #eee;
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+#close:hover{
+    background-color: #000000;
+    color: #eee;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #eee, 
+    5px 5px 0px 2px black;
+}
+
+/* body */
+h1{
+    font-family: 'Lucida Console';
+}
+
+.container{
+    border-radius: 10px;
+    border: 2px solid #000000;
+    margin-top: 10em;
+    box-shadow: 5px 5px #000000;
+    padding: 3em
+}
+
+#portfolio{  /* Hide the p */
+    text-align: center;
+}
+
+
+
+/* Contact */
+
+.mb-3{
+    font-family: 'Lucida Console';
+}
+
+#form1{
+    margin: 10em;
+       
+}
+#form2{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    margin-top: 2em;  
+}
+
+#form3{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    margin-top: 2em;  
+}
+
+#name{
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+#email{
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+#messages{
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+}
+
+#submit{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    margin-top: 0.5em;  
+
+    background-color: #eee;
+    color: #000000;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+    font-family: 'Lucida Console';
+}
+#gotoContact{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+
+
+#submit:hover{
+    background-color: #000000;
+    color: #eee;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #eee, 
+    5px 5px 0px 2px black;
+}
+
+
+
+
+/* ALERT CSS*/
+
+.alert{
+    padding: 20px 50px;
+    min-width: 420px;
+    position: absolute;
+    right: 10px;
+    top: 1em;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px #000000;
+    position: relative;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1101;
+}
+
+ .bi-check-circle-fill{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+}
+
+.alert .msg{
+    padding: 0px 10px;
+    font-family: 'Lucida Console';
+    font-size: 18px;
+}
+
+.alert .bi-x{
+    position: absolute;
+    right: 15px;
+    top: 18px;
+    transform: translateY();
+    width: 30px;
+    height: 30px;
+}
+
+.alert .close-btn{
+    cursor: pointer;
+}
+
+.alert.show{
+    animation: show_slide 1s ease forwards;
+    
+}
+
+.alert.showAlert{
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+
+@keyframes show_slide{
+    0%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(-10%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+.alert.hide{
+    animation: hide_slide 1s ease forwards;
+    
+}
+
+@keyframes hide_slide{
+    0%{
+        transform: translateX(-20px);
+    }
+    40%{
+        transform: translateX(0%);
+    }
+    80%{
+        transform: translateX(-10px);
+    }
+    100%{
+        transform: translateX(110%);
+    }
+}
